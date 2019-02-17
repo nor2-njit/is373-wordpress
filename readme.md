@@ -22,12 +22,12 @@
 
 ### Collaboration
 #### Version Control
-1. Commit files with comments on changes. 
+1. Commit files with comments on changes and push to remote repository. 
 2. Add collaborators under settings on [GitHub](https://github.com/)
 3. For collaborators: follow steps 3-7 under GitHub steps.
 4. Pull repositories and branches.
 5. Create local repositories for branches
-6. Pull before any changes, push after making changes.
+6. Pull before any changes, commit with comments then push to remote repository.
 
 
 ## How to install WordPress
