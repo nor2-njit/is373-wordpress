@@ -3,7 +3,32 @@
 * Nicholas Reynolds
 * Shameel Mohanlal
 
-## How to collaborate
+## How to Collaborate
+### Prerequisites
+#### PHPStorm
+1. Install PHPStorm
+2. Login to GitHub during installation
+
+#### GitHub
+1. Create a [GitHub](https://github.com/) account.
+2. Create a [new repository](https://github.com/new) and name it.
+3. Initialize the repository with a README and .gitignore or a license is needed.
+4. Open PHPStorm and click 'Check out from Version Control'
+5. Select 'Git' and log in if neccessary. 
+6. Enter the url of the newly created repository and desired directory.
+7. Click test if working correctly and clone. 
+8. Import/create files, edit .gitignore to ignore files in the project folder.
+
+
+### Collaboration
+#### Version Control
+1. Commit files with comments on changes. 
+2. Add collaborators under settings on [GitHub](https://github.com/)
+3. For collaborators: follow steps 3-7 under GitHub steps.
+4. Pull repositories and branches.
+5. Create local repositories for branches
+6. Pull before any changes, push after making changes.
+
 
 ## How to install WordPress
 ### Prerequisites
