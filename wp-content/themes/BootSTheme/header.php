@@ -9,12 +9,12 @@
 </head>
 <body>
 
-<div class = "navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-dark bg-dark mb-3">
+<div class = "navbar navbar-inverse navbar-static-top">
     <div class = "container">
 
         <a href = "#" class = "navbar-brand">Bootstrap WordPress Theme</a>
 
-        <button class = "navbar-toggler" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+        <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
             <span class = "icon-bar"></span>
             <span class = "icon-bar"></span>
             <span class = "icon-bar"></span>
@@ -22,33 +22,34 @@
 
         <div class = "collapse navbar-collapse navHeaderCollapse">
 
-            <ul class = "nav navbar-nav navbar-right ml-auto">
+            <ul class = "nav navbar-nav navbar-right">
 
-                <li class = "nav-item"><a href = "#" class = "nav-link">Home</a></li>
+                <li><a href = "#">Home</a></li>
                 <li class = "dropdown">
 
-                    <a href = "#" class = "nav-link dropdown-toggle" data-toggle = "dropdown">Blog <b class = "caret"></b></a>
+                    <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Blog <b class = "caret"></b></a>
                     <ul class = "dropdown-menu">
-                        <li><a href = "#" class="dropdown-item">Item One</a></li>
-                        <li><a href = "#" class="dropdown-item">Item Two</a></li>
-                        <li><a href = "#" class="dropdown-item">Item Three</a></li>
-                        <li><a href = "#" class="dropdown-item">Item Four</a></li>
+                        <li><a href = "#">Item One</a></li>
+                        <li><a href = "#">Item Two</a></li>
+                        <li><a href = "#">Item Three</a></li>
+                        <li><a href = "#">Item Four</a></li>
                     </ul>
 
                 </li>
-                <li class = "nav-item dropdown">
 
-                    <a href = "#" class = "nav-link dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+                <li class = "dropdown">
+
+                    <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
                     <ul class = "dropdown-menu">
-                        <li class="dropdown-item"><a href = "#">Twitter</a></li>
-                        <li class="dropdown-item"><a href = "#">Facebook</a></li>
-                        <li class="dropdown-item"><a href = "#">Google+</a></li>
-                        <li class="dropdown-item"><a href = "#">Instagram</a></li>
+                        <li><a href = "#">Twitter</a></li>
+                        <li><a href = "#">Facebook</a></li>
+                        <li><a href = "#">Google+</a></li>
+                        <li><a href = "#">Instagram</a></li>
                     </ul>
 
                 </li>
-                <li class = "nav-item"><a href = "#" class = "nav-link">About</a></li>
-                <li class = "nav-item"><a href = "#contact" class = "nav-link" data-toggle="modal">Contact</a></li>
+                <li><a href = "#">About</a></li>
+                <li><a href = "#contact" data-toggle="modal">Contact</a></li>
 
             </ul>
 

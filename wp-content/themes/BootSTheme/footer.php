@@ -1,6 +1,6 @@
 </div>
 
-<div class = "navbar navbar-default fixed-bottom navbar-light bg-light border-top">
+<div class = "navbar navbar-default fixed-bottom">
 
     <div class = "container">
         <p class = "navbar-text pull-left">Site Built By Ahsan</p>
