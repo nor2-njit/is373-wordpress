@@ -9,7 +9,7 @@ while(have_posts()) : the_post(); ?>
     </div>
 <?php endwhile; wp_reset_query(); ?>
 
-    <div class="panel panel-default panel-body border p-3">
+    <div class="panel panel-default panel-body">
         <div class = "row">
             <div class = "col-md-2">
                 <ul class="nav nav-pills nav-stacked">
