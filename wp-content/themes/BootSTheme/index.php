@@ -20,9 +20,9 @@ while(have_posts()) : the_post(); ?>
             <div class = "col-md-10">
                 <?php while(have_posts()) : the_post(); ?>
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                <p><?php the_excerpt(); ?></p>
-                <p class = "text-muted"> posted by <?php the_author(); ?>
-                    <?php endwhile; wp_reset_query(); ?>
+                <?php the_content('Continue Reading');  ?><br>
+                <p class = "text-muted"> posted by <?php the_author(); ?></p>
+                <?php endwhile; wp_reset_query(); ?>
             </div>
         </div>
     </div>
